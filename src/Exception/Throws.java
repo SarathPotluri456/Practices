@@ -18,6 +18,10 @@ public class Throws {
 				t1.m1();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
+	
+				
+				
+				
 				System.out.println(e.getMessage());
 			}
 		
