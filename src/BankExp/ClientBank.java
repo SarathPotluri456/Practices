@@ -2,7 +2,7 @@ package BankExp;
 import java.util.*;
 public class ClientBank {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CBank {
 		CheckingTransactions ct=new CheckingTransactions();
 		Scanner sc=new Scanner(System.in);
 	
@@ -15,7 +15,6 @@ public class ClientBank {
 		try {
 			System.out.println("The Balence Amount is:"+ct.balance(d, w));
 		} catch (CBank e) {
-		
 		}
 	}
 
