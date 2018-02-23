@@ -15,6 +15,7 @@ public class ClientBank {
 		try {
 			System.out.println("The Balence Amount is:"+ct.balance(d, w));
 		} catch (CBank e) {
+			System.out.println("You have insufficiant funds");
 		}
 	}
 
