@@ -1,6 +1,6 @@
 package NewCheck;
 
- class ChechInt {
+class ChechInt {
 	public static void main(String []args)
 	{
 		Integer i1=128;
