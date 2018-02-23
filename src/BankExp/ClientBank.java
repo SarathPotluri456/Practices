@@ -8,14 +8,14 @@ public class ClientBank {
 	
 		System.out.println("Please Enter How much amount you want to be deposit:");
 		int d=sc.nextInt();
-		System.out.println("The Deposited amount is:"+ct.deposit(d));
+		System.out.println("The Deposited amount is:Rs."+ct.deposit(d));
 		System.out.println("Please Enter how much amount you want to withdraw:");
 		int w=sc.nextInt();
-		System.out.println("The withdrawl amount is:"+ct.withdraw(w));
+		System.out.println("The withdrawl amount is:Rs."+ct.withdraw(w));
 		try {
-			System.out.println("The Balence Amount is:"+ct.balance(d, w));
+			System.out.println("The Balence Amount is:Rs."+ct.balance(d, w));
 		} catch (CBank e) {
-			System.out.println("You have insufficiant funds");
+			System.err.println("You have insufficiant funds");
 		}
 	}
 
