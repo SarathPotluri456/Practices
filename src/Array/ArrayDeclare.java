@@ -4,6 +4,7 @@ public class ArrayDeclare {
 	int []a= {1,23,34,54,78};
 	int []b=new int[6];
 	int[] c=new int[10];
+
 	public static void main(String []args)
 	{
 		ArrayDeclare ad=new ArrayDeclare();
