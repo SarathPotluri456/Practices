@@ -23,6 +23,10 @@ public class ArrayDeclare {
 	{
 		System.out.println(ad.a[i]);
 	}
+	for(int x:ad.a)
+	{
+		System.out.println(x);
+	}
 	}
 		
 	
